@@ -1,0 +1,122 @@
+body{
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(240, 248, 255);
+  color: #434455;
+}
+ul,ol{
+  list-style-type: none;
+}
+.nav-link{
+text-decoration: none;
+}
+.logotype-span{
+  color: #2e2f42;
+}
+.logotype{
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4D5AE5;
+}
+.menu-link{
+  font-family: Roboto;
+  font-size: 16;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #2e2f42;
+}
+.menu-link:hover {
+  color: #404bbf;
+}
+.menu-link:focus{
+  color: #404bbf;
+}
+.menu-contact {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: #434455;
+}
+.menu-contact:hover {
+  background-color: #404bbf;
+}
+.menu-contact:focus {
+  background-color: #404bbf;
+  }
+.address {
+  font-size: normal;
+}
+/*<!--Hero Section-->*/
+
+.section {
+  background-color: #2e2f42;
+}
+
+.main-head {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.buttom-action {
+  background-color: #4D5AE5;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.buttom-action:hover{
+  background-color: #404bbf;
+}
+.buttom-action:focus{
+  background-color: #404bbf;
+}
+
+/*<--Our Benefits-->
+
+
+/*
+a{
+  text-decoration: none;
+}
+.list:hover,
+.list:focus{
+  color: #404bbf;
+}
+.list-stail:hover,
+.list-stail:focus{
+  background-color: #404bbf;
+}
+.logo{
+  font-family: "Raleway", sans-serif;
+  front: size 18px;
+  front-weight: 700;
+  text-transform: uppercase;
+  line-height: 1,17;
+  letter-spacing: 0,03;
+  color: #4D5AE5;
+}
+.logo-span{
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  front-weight: 700;
+  color: #2e2f42;
+}
+.menu-link{
+  font-size: 16px;
+  
+}
