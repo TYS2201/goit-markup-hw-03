@@ -1,9 +1,11 @@
   body{
     font-family: "Roboto", sans-serif;
-    background-color: rgb(240, 248, 255);
+    background-color: #FFFFFF;
     color: #434455;
+    font-family: 'Raleway', sans-serif;
   }
- 
+
+
   ul,ol{
     list-style-type: none;
   }
@@ -16,24 +18,51 @@
 .img{
   display: block, max-width: 100%, height: auto
 }
-.page-header{
+
+.header{
 display: flex;
 width: 1440px;
 height: 72px;
 justify-content: center;
 align-items: center;
 }
-.page-navigation
 
 .logotype{
-  font-family: "Raleway", sans-serif;
+  width: 44px;
+  color: var(--IRIS, #4D5AE5);
+  font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
   text-transform: uppercase;
-  color: #4D5AE5;
+}
+
+.logotype-span{
+  color: var(--NAVY-BLUE, #2E2F42);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.navigation{
+border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+background: var(--WHITE, #FFF);
+width: 1440px;
+height: 72px;
+flex-shrink: 0;
+}
+
+.navigation-list{
+
+}
+.made-menu-item{
+
 }
 
 .menu-link{
@@ -46,6 +75,19 @@ font-weight: 500;
 line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
 }
+
+.list{
+  color: var(--SLATE, #434455);
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+
 
 .menu-contact{
   color: var(--SLATE, #434455);
@@ -67,7 +109,7 @@ border: 1px solid #000;
 background: var(--NAVY-BLUE, #2E2F42);
 }
 .main-head{
-  color: var(--WHITE, #FFF);
+  color: var(--WHITE, #ffffff);
 text-align: center;
 width: 496px;
 /* Header 1 */
@@ -117,7 +159,7 @@ text-decoration: none;
   background-color: #404bbf;
   }
 .address {
-  font-size: normal;
+  font-style: normal;
 }
 /*<!--Hero Section-->*/
 
@@ -147,9 +189,11 @@ text-decoration: none;
 
 .buttom-action:hover{
   background-color: #404bbf;
+  color: #404bbf
 }
 .buttom-action:focus{
   background-color: #404bbf;
+  color: #404bbf
 }
 
 /*<--Our Benefits-->*/
