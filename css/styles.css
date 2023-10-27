@@ -1,8 +1,8 @@
   body{
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
-
-   /* color: #434455;*/
+    color: #434455
+    background-color:#ffffff
   }
 
   ul,ol{
@@ -45,7 +45,7 @@ align-items: center;
   font-size: 18px;
 
   font-weight: 700;
-  line-height: 1.16; /* 116.667% */
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--IRIS, #4D5AE5);
@@ -55,12 +55,11 @@ align-items: center;
   width: 71px;
   font-family: Raleway,sans-serif;
   font-size: 18px;
-
   font-weight: 700;
-  line-height: 1.16; /* 116.667% */
+  line-height: 1.17
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--NAVY-BLUE, #2E2F42);
+  color: #f4f4fd
 }
 
 /*.menu-item{}*/
@@ -183,7 +182,7 @@ width: 1440px;
 height: 732px;
 flex-shrink: 0;
 border: 1px solid #000;
-background: var(--CLOUD, #F4F4FD);
+background-color: #FFFFFF 
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 .our-team-title{
@@ -195,20 +194,19 @@ font-family: Roboto;
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
-line-height: 40px; /* 111.111% */
-letter-spacing: 0.72px;
+line-height: 1.12;
+letter-spacing: 0.02em;
 text-transform: capitalize;
 }
 .name{
-  color: var(--NAVY-BLUE, #2E2F42);
 text-align: center;
-
 font-family: Roboto, sans-serif;
 font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: 1.2; /* 120% */
 letter-spacing: 0.02em;
+color: var(--NAVY-BLUE, #2E2F42);
 }
 
 .introduce{
@@ -218,7 +216,7 @@ font-family: Roboto, sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
-line-height: 24px; /* 150% */
+line-height: 1.5; /* 150% */
 letter-spacing: 0.32px;
 }
      /*<!--Section Portfolio-->*/
@@ -233,10 +231,10 @@ background: #FFF;
   color: var(--NAVY-BLUE, #2E2F42);
 text-align: center;
 font-family: Roboto;
-font-size: 36px;
+font-size: 20px;
 font-style: normal;
 font-weight: 700;
-line-height: 1.11; /* 111.111% */
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 }
@@ -281,6 +279,7 @@ color: var(--SLATE, #434455);
 }
 .text-end{
   width: 264px;
+  line-height: 1.17
 /* Body */
 font-family: Roboto,sans-serif;
 font-size: 16px;
@@ -290,6 +289,7 @@ line-height: 1.50; /* 150% */
 letter-spacing: 0.02em;
 color: var(--CLOUD, #F4F4FD);
 }
+color: #f4f4fd
 /*
 
 
