@@ -85,7 +85,9 @@ color: var(--NAVY-BLUE, #2E2F42);
 .menu-link:focus{
   color: #404bbf;
 }
-
+.menu-item{
+  color: #404bbf;
+}
 
 .menu-contact{
 /* Body */
@@ -102,7 +104,7 @@ color: var(--SLATE, #434455);
 .menu-contact:focus{
 color: #404bbf;
 }
-.header-address{
+.hedear-addres{
   font-style: normal;
 }
 
@@ -214,12 +216,13 @@ text-align: center;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 /* Header 2 */
 font-family: Roboto, sans-serif;
-font-size: 36px;
+font-size: 20px;
 font-style: normal;
-font-weight: 700;
-line-height: 1.11;
+font-weight: 500;
+line-height: 1.2;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+color: #2e2f42;
 }
 .our-team-name{
   background-color: #ffffff;
@@ -254,6 +257,9 @@ align-items: center;
 /*gap: 96px;*/
 background-color: #f4f4fd;
 }
+.section-portfolio-title{
+background-color: #ffffff;
+}
 .section-title{
   color: var(--NAVY-BLUE, #2E2F42);
 text-align: center;
@@ -282,7 +288,7 @@ background-color:#ffffff;
 }
 .portfolio-name{
 font-family: Roboto, sans-serif
-font-size: 20px;
+font-size:20px;
 font-style: normal;
 font-weight: 500;
 line-height: 1.2; /* 120% */
@@ -320,7 +326,7 @@ letter-spacing: 0.02em;
 color: #f4f4fd;
 color: var(--CLOUD, #F4F4FD);
 }
-.logotype-span{
+.logotype-span-foot{
   color: #f4f4fd;
 }
 
