@@ -85,10 +85,10 @@ color: var(--NAVY-BLUE, #2E2F42);
 .menu-link:focus{
   color: #404bbf;
 }
-.menu-item{
+.menu-item:hover,
+.menu-item:focus{
   color: #404bbf;
 }
-
 .menu-contact{
 /* Body */
 font-family: Roboto, sans-serif;
@@ -264,8 +264,7 @@ background-color: #ffffff;
   color: var(--NAVY-BLUE, #2E2F42);
 text-align: center;
 font-family: Roboto, sans-serif;
-
-font-size: 20px;
+font-size: 36px;
 font-style: normal;
 font-weight: 700;
 line-height: 1.11;
@@ -273,6 +272,7 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 background-color: #f4f4fd;
 }
+
 .list-portfolio{
   display: flex;
 width: 360px;
@@ -284,10 +284,9 @@ align-items: flex-start;
 flex-shrink: 0;
 border: 1px solid var(--CORNFLOWER, #E7E9FC);
 background-color:#ffffff;
-
 }
 .portfolio-name{
-font-family: Roboto, sans-serif
+font-family: Roboto, sans-serif;
 font-size:20px;
 font-style: normal;
 font-weight: 500;
@@ -304,7 +303,6 @@ line-height: 1.5; /* 150% */
 letter-spacing: 0.02em;
 color: var(--SLATE, #434455);
 }
-
 /*Footer*/
 .end{
   width: 1440px;
