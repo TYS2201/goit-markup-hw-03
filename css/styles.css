@@ -64,7 +64,14 @@ align-items: center;
 }
 
 /*.menu-item{}*/
-
+.menu:hover,
+.menu:focus{
+  color: #404bbf;
+}
+.menu-item:hover,
+.menu-item:focus{
+  color: #404bbf;
+}
 .menu-link{
 /* Body Medium */
 font-family: Roboto, sans-serif;
@@ -72,23 +79,14 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.02em;
-
 color: var(--NAVY-BLUE, #2E2F42);
-
-}
-.menu:hover,
-.menu:focus{
-  color: #404bbf;
-
 }
 .menu-link:hover,
 .menu-link:focus{
   color: #404bbf;
 }
-.menu-item:hover,
-.menu-item:focus{
-  color: #404bbf;
-}
+
+
 .menu-contact{
 /* Body */
 font-family: Roboto, sans-serif;
@@ -172,6 +170,15 @@ background: #ffffff;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.made-menu{
+  font-weight: 500;
+font-size: 20;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+
+
 .made-menu-item{
 display: inline-flex;
 flex-direction: column;  
@@ -216,16 +223,24 @@ text-align: center;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 /* Header 2 */
 font-family: Roboto, sans-serif;
-font-size: 20px;
+font-size: 36px;
 font-style: normal;
 font-weight: 500;
-line-height: 1.2;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2e2f42;
 }
 .our-team-name{
   background-color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.our-team-list{
+  background-color: #ffffff; 
 }
 .name{
 text-align: center;
@@ -259,6 +274,8 @@ background-color: #f4f4fd;
 }
 .section-portfolio-title{
 background-color: #ffffff;
+font-size: 36px;
+line-height: 1.11;
 }
 .section-title{
   color: var(--NAVY-BLUE, #2E2F42);
