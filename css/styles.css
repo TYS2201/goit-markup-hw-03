@@ -1,6 +1,6 @@
 body{
-  font-family: 'Raleway', sans-serif;
-  font-family: 'Roboto', sans-serif;
+  font-family:'Raleway',sans-serif;
+  font-family:'Roboto',sans-serif;
   color: #434455;
   background-color:#ffffff;
 }
@@ -26,10 +26,8 @@ display: block, max-width: 100%, height: auto
 /*display: flex;*/
 width: 1440px;
 height: 72px;
-
 /*justify-content: center;
 align-items: center;*/
-
 }
 
 .page-navigation{
