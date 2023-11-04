@@ -85,7 +85,6 @@ background-color: #2e2f42;
 }
 .main-head{
 text-align: center;
-width: 496px;
 font-family: Roboto;
 font-size: 56px;
 font-style: normal;
@@ -111,8 +110,6 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-width: 1128px;
-height: 104px;
 background: #ffffff;
 }
 .made-benefits{
@@ -136,14 +133,12 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 }
 .made-menu-item-name{
-width: 264px;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 }
 .made-menu-item-text{
-width: 264px;
 font-family: Roboto,sans-serif;
 font-size: 16px;
 font-weight: 400;
@@ -157,8 +152,6 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
-width: 1440px;
-height: 732px;
 flex-shrink: 0;
 border: 1px solid #000;
 background-color:#f4f4fd;
@@ -234,8 +227,6 @@ background-color: #f4f4fd;
 }
 
 .list-portfolio{
-width: 360px;
-height: 420px;
 border: 1px solid var(--CORNFLOWER, #E7E9FC);
 background-color:#ffffff;
 }
@@ -259,12 +250,9 @@ color: var(--SLATE, #434455);
 }
 /*Footer*/
 .end{
-width: 1440px;
-height: 312px;
 background: var(--NAVY-BLUE, #2E2F42);
 }
 .text-end{
-width: 264px;
 line-height: 1.17;
 font-family: Roboto,sans-serif;
 font-size: 16px;
