@@ -15,7 +15,7 @@ cursor: pointer;
 .page-header{
 }
 .page-navigation{
-border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+
 background: var(--WHITE, #FFF);
 text-decoration: none;
 }
