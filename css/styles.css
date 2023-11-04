@@ -188,13 +188,21 @@ color: #2e2f42;
 
 
 .made-menu-item{
+font-weight: 500;
+font-size: 20;
+line-height: 1.2;
+letter-spacing: 0.02em;
 /*display: inline-flex;
 flex-direction: column;  
 align-items: center;
 /*gap: 96px;*/
 }
 .made-menu-item-name{
-  width: 264px;
+width: 264px;
+font-weight: 500;
+font-size: 20;
+line-height: 1.2;
+letter-spacing: 0.02em;
 /*display: flex;
 width: 264px;
 flex-direction: column;
