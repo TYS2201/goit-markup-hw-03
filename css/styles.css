@@ -151,6 +151,10 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   display: flex;
   align-items: center;
 }
+.benefits{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .our-benefits{
   min-width: 100vh;
 width: 1128px;
@@ -160,6 +164,16 @@ width: 264px;
 flex-direction: column;
 align-items: flex-start;
 gap: 8px;
+}
+.visually-hidden{
+position: absolute;
+overflow: hidden;
+clip: rect(0 0 0 0);
+width: 1px;
+height: 1px;
+margin: -1px;
+padding: 0;
+border: 0;
 }
 .ourteam{
   min-width: 100vh;
@@ -185,8 +199,6 @@ height: 312px;
 flex-shrink: 0;
 background: var(--NAVY-BLUE, #2E2F42);
 }
-
-
 .main-head{
   max-width: 496px;
 text-align: center;
@@ -239,23 +251,31 @@ letter-spacing:0.02em;
 color: #2e2f42;
 }
 .made-menu{
+  display: flex;
+  gap: 24px;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
 }
+.made-menu .made-menu-item:last-child{
+  margin-right: 0;
+}
+
 .made-menu-item{
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
+flex-basis: calc((100%-72px)/4));
 }
 .made-menu-item-name{
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
+margin-bottom: 8px;
 }
 .made-menu-item-text{
 font-family: Roboto,sans-serif;
