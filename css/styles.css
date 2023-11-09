@@ -168,7 +168,6 @@ gap: 8px;
 .visually-hidden{
 position: absolute;
 overflow: hidden;
-clip: rect(0 0 0 0);
 width: 1px;
 height: 1px;
 margin: -1px;
@@ -268,7 +267,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-flex-basis: calc((100%-72px)/4));
+width: calc((100%-72px)/4);
 }
 .made-menu-item-name{
 font-weight: 500;
