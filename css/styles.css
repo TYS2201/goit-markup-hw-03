@@ -15,11 +15,15 @@ ul,ol{
 a {
   text-decoration: none;
 }
+img{
+  display: block;
+}
 button{
 cursor: pointer;
 }
 .page-header{
   border-bottom: 1px; solid #E7E9FC;
+  border-bottom: 1px #E7E9FC;
 }
 .page-navigation{
   display: flex;
