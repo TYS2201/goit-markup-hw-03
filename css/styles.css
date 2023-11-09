@@ -13,15 +13,19 @@ button{
 cursor: pointer;
 }
 .page-header{
+  border-bottom: 1px; solid #E7E9FC;
 }
 .page-navigation{
+  display: flex;
+  align-items: center;
   width: 1440px;
   height: 72px;
   flex-shrink: 0;
-background: var(--WHITE, #FFF);
+background: var(--WHITE, i#FFF);
 text-decoration: none;
 }
 .logotype{
+  margin-right: 76px;
   width: 44px;
 font-family: Raleway, sans-serif;
 font-size: 18px;
@@ -41,11 +45,19 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #2e2f42;
 }
+.menu{
+  display: flex;
+  gap: 40px;
+}
 .menu:hover{
 color: #404bbf;
 }
 .menu:focus{
 color: #404bbf;
+}
+.menu-item{
+  gap: 40px;       /*!!!!!!!!!!!!none-last!!!!!*/
+
 }
 .menu-item:hover{
 color: #404bbf;
@@ -53,7 +65,10 @@ color: #404bbf;
 .menu-item:focus{
 color: #404bbf;
 }
+
 .menu-link{
+  padding-top: 24px;
+  padding-bottom: 24px;
 font-family: Roboto, sans-serif;
 font-size: 16px;
 font-weight: 500;
@@ -68,7 +83,13 @@ color: #404bbf;
 color: #404bbf;
 }
 .hedear-addres{
+  display: flex;
 font-style: normal;
+gap: 40px;
+}
+.list{
+  display: flex;
+gap: 40px; /*!!!!!!!!!!!!none-last!!!!!*/
 }
 .menu-contact{
 font-family: Roboto, sans-serif;
@@ -99,10 +120,13 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 .pageheader{
   min-width: 100vh;
   display: flex;
-  width: 1440px;
+  width: 1158px;
   height: 72px;
   justify-content: center;
   align-items: center;
+  margin: 0%, auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .hero-container{
   min-width: 100vh;
@@ -256,11 +280,13 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 }
 .our-team-list{
+  display: block;
 background-color: #ffffff; 
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
+
 }
 .name{
 text-align: center;
@@ -305,6 +331,7 @@ background-color: #f4f4fd;
 }
 
 .list-portfolio{
+  display: block;
 border: 1px solid var(--CORNFLOWER, #E7E9FC);
 background-color:#ffffff;
 }
@@ -328,6 +355,8 @@ color: var(--SLATE, #434455);
 }
 /*Footer*/
 .end{
+  padding-top: 100px;
+  padding-bottom: 100px;
 background: var(--NAVY-BLUE, #2E2F42);
 }
 .text-end{
@@ -342,5 +371,7 @@ color: #f4f4fd;
 color: var(--CLOUD, #F4F4FD);
 }
 .logotype-span-foot{
+  display: inline-block;
+  margin-bottom: 16px;
 color: #f4f4fd;
 }
