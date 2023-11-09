@@ -369,6 +369,10 @@ color: var(--SLATE, #434455);
   padding-bottom: 100px;
 background: var(--NAVY-BLUE, #2E2F42);
 }
+.footer-end{
+  display: inline-block;
+  margin-bottom: 16px;
+}
 .text-end{
 line-height: 1.17;
 font-family: Roboto,sans-serif;
