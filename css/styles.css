@@ -165,11 +165,10 @@ flex-direction: column;
 align-items: flex-start;
 gap: 8px;
 }
-.visually-hidden{
-
+.made-benefits .visually-hidden{
 overflow: hidden;
-
 }
+
 .ourteam{
   min-width: 100vh;
   width: 1440px;
