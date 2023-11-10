@@ -166,7 +166,7 @@ align-items: flex-start;
 gap: 8px;
 }
 .visually-hidden{
-position: absolute;
+
 overflow: hidden;
 
 }
