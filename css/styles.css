@@ -285,6 +285,8 @@ color: #2e2f42;
 flex-shrink: 0;
 border: 1px solid #000;
 background-color:#f4f4fd;
+padding-top: 120px;
+padding-bottom: 120px;
 }
 .our-team-title{
 color: var(--NAVY-BLUE, #2E2F42);
@@ -298,6 +300,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2e2f42;
+margin-bottom: 72px;
 }
 .our-team-name{
 background-color: #ffffff;
@@ -306,18 +309,26 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+display: flex;
+gap: 24px;
 }
 .our-team-list{
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
   display: block;
 background-color: #ffffff; 
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-
 }
+.container .for-name{
+  padding-top: 32px; та padding-bottom: 32px;
+}
+
 .name{
 text-align: center;
+margin-bottom: 8px;
 font-family: Roboto, sans-serif;
 font-size: 20px;
 font-style: normal;
