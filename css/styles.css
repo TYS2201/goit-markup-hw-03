@@ -323,7 +323,8 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 }
 .container-for-name{
-  padding-top: 32px; та padding-bottom: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .name{
