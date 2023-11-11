@@ -258,7 +258,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-width: calc((100% - 72px) / 4);
+width: calc((100% - 3 * 24px) / 4);
 
 }
 .made-menu-item-name{
@@ -313,7 +313,7 @@ display: flex;
 gap: 24px;
 }
 .our-team-list{
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
   display: block;
 background-color: #ffffff; 
@@ -349,15 +349,22 @@ line-height: 1.5; /* 150% */
 letter-spacing: 0.32px;
 }
 .section-portfolio{
+  padding-top: 120px; 
+  padding-bottom: 120px;
 line-height: 1.11;
 background-color: #f4f4fd;
 }
 .section-portfolio-title{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 background-color: #ffffff;
 font-size: 36px;
 line-height: 1.11;
 }
 .section-title{
+  margin-bottom: 72px;
 color: var(--NAVY-BLUE, #2E2F42);
 text-align: center;
 font-family: Roboto, sans-serif;
@@ -371,9 +378,17 @@ background-color: #f4f4fd;
 }
 
 .list-portfolio{
+  width: calc((100% - 3 * 24px) / 4);
   display: block;
 border: 1px solid var(--CORNFLOWER, #E7E9FC);
 background-color:#ffffff;
+}
+.container-for-portfolio{
+  padding: 32px 16px;
+  border: 1px solid#E7E9FC;
+  border-top: none;
+  margin-bottom: 8px;
+
 }
 .portfolio-name{
 font-family: Roboto, sans-serif;
