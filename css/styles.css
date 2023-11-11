@@ -165,7 +165,7 @@ align-items: flex-start;
 gap: 8px;
 }
 
-.made-benefits .visually-hidden{
+.made-benefits-visually-hidden{
     position: absolute;
     width: 1px;
     height: 1px;
