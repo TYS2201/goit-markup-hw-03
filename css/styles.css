@@ -3,7 +3,6 @@
 *::after {
   box-sizing: border-box;
 }
-
 body{
   font-family:'Roboto',sans-serif;
   color: #434455;
@@ -165,6 +164,7 @@ flex-direction: column;
 align-items: flex-start;
 gap: 8px;
 }
+
 .made-benefits .visually-hidden{
 overflow: hidden;
 }
@@ -251,7 +251,7 @@ color: #2e2f42;
   margin-right: 0;
 }
 .made-menu .made-menu-item:first-child{
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
 }
 .made-menu-item{
 font-weight: 500;
@@ -364,7 +364,7 @@ font-size: 36px;
 line-height: 1.11;
 }
 .section-title{
-  margin-bottom: 72px;
+  margin-bottom: 8px;
 color: var(--NAVY-BLUE, #2E2F42);
 text-align: center;
 font-family: Roboto, sans-serif;
