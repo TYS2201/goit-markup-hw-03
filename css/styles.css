@@ -357,11 +357,15 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 
 }
+
 .list-portfolio{
   display: block;
 border: 1px solid var(--CORNFLOWER, #E7E9FC);
 background-color:#ffffff;
 }
+
+.list-portfolio:first-child{
+  width: calc((100% - 3 * 24px) / 4);}
 
 .container-for-portfolio{ 
   padding: 32px 16px;
@@ -369,6 +373,7 @@ background-color:#ffffff;
   border-top: none;
   margin-bottom: 8px;
 }
+
 .portfolio-name{
   margin-bottom: 8px;
 font-family: Roboto, sans-serif;
@@ -379,6 +384,7 @@ line-height: 1.2; /* 120% */
 letter-spacing: 0.02em;
 color: var(--NAVY-BLUE, #2E2F42);
 }
+
 .portfolio-type{
 font-family: Roboto, sans-serif;
 font-size: 16px;
