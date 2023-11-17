@@ -331,6 +331,7 @@ letter-spacing: 0.32px;
 .section-portfolio{
   padding-top: 120px; 
   padding-bottom: 120px;
+
 }
 .section-portfolio-title:first-child{
   width: calc((100% - 3 * 24px) / 4);
@@ -350,6 +351,7 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+
 }
 .list-portfolio{
   display: block;
