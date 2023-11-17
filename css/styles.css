@@ -331,9 +331,9 @@ letter-spacing: 0.32px;
 .section-portfolio{
   padding-top: 120px; 
   padding-bottom: 120px;
-
 }
-.section-portfolio-title{
+.section-portfolio-title:first-child{
+  width: calc((100% - 3 * 24px) / 4);
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
@@ -350,18 +350,12 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-
 }
 .list-portfolio{
- 
   display: block;
 border: 1px solid var(--CORNFLOWER, #E7E9FC);
 background-color:#ffffff;
 }
-
-.list-portfolio:first-child{
-  width: calc((100% - 3 * 24px) / 4);}
-
 .container-for-portfolio{ 
   padding: 32px 16px;
   border: 1px solid#E7E9FC;
