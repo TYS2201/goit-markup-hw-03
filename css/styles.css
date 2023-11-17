@@ -124,7 +124,7 @@ padding-bottom: 188px;
 .container{
   width: 1158px;
   margin: 0 auto;
-  padding-left: 15px;id
+  padding-left: 15px;
   padding-right: 15px;
 }
 
@@ -353,17 +353,20 @@ text-transform: capitalize;
 
 }
 .list-portfolio{
-  width: calc((100% - 3 * 24px) / 4);
+ 
   display: block;
 border: 1px solid var(--CORNFLOWER, #E7E9FC);
 background-color:#ffffff;
 }
-.container-for-portfolio{
+
+.list-portfolio:first-child{
+  width: calc((100% - 3 * 24px) / 4);}
+
+.container-for-portfolio{ 
   padding: 32px 16px;
   border: 1px solid#E7E9FC;
   border-top: none;
   margin-bottom: 8px;
-
 }
 .portfolio-name{
   margin-bottom: 8px;
